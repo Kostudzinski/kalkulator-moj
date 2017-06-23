@@ -10,10 +10,10 @@ var wyczysc = document.getElementsByClassName('wyczysc');
 var ekran = document.getElementById('ekran');
 
 
-function oblicz() {
-    if (cyfry.onclick) {
-        ekran.innerText = cyfry.value
-    };
-};
 
-oblicz();
+    if (cyfry.onclick) {
+        ekran.innerHTML = cyfry.value
+    };
+
+
+
